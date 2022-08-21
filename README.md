@@ -9,6 +9,10 @@ El  proyecto desarrollado es referido a "La semana de computación " en la escue
 ![image](https://github.com/GabrielPacco/SeCo_System/blob/main/Recursos/modelo.png)
 ### Diseño de Arquitectura
 ![image](https://github.com/GabrielPacco/SeCo_System/blob/main/Recursos/Arquitectura.png)
-### Estilos de Programación
-
-##Estilos de programación##
+## Estilos de Programación <br>
+### **Things**: <br>
+Variación del estilo Pipeline, con las siguientes restricciones adicionales:
+Cada función toma un parámetro adicional, generalmente el último, que es otra función.
+Ejemplo: para el ruteo, el módulo express toma como parámetros funciones Middleware y Funciones de controlador que manejan el flujo de los Objetos Request anh Response de HTTP.
+### **Kick Forward **: <br>
+### **Constructivist**: <br>
